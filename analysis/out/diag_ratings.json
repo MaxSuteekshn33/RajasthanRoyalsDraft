@@ -1,0 +1,177 @@
+{
+  "batting": {
+    "league_impact": 0.11262272859663196,
+    "prior_consistency": 0.7348484848484849,
+    "pool": 47,
+    "ballasts": {
+      "overall": 782.3,
+      "press": 244.5,
+      "clutch": 4809.8,
+      "consistency": 969.3
+    },
+    "weights": {
+      "press": 0.883,
+      "consistency": 0.067,
+      "clutch": 0.05
+    },
+    "component_reliability": {
+      "press": 0.1658,
+      "consistency": 0.01,
+      "clutch": 0.01
+    },
+    "reliability": {
+      "n_players": 107,
+      "min_balls_per_half": 250,
+      "metrics": {
+        "overall": {
+          "split_half_r": 0.3174,
+          "full_length_r": 0.4818,
+          "mean_sample": 727.4,
+          "implied_ballast_k": 782.3
+        },
+        "press": {
+          "split_half_r": 0.0904,
+          "full_length_r": 0.1658,
+          "mean_sample": 48.6,
+          "implied_ballast_k": 244.5
+        },
+        "clutch": {
+          "split_half_r": -0.0,
+          "full_length_r": 0.01,
+          "mean_sample": 48.6,
+          "implied_ballast_k": 4809.8
+        },
+        "pos_rate": {
+          "split_half_r": -0.1232,
+          "full_length_r": 0.01,
+          "mean_sample": 9.8,
+          "implied_ballast_k": 969.3
+        }
+      }
+    }
+  },
+  "bowling": {
+    "league_impact": 0.03130233304426756,
+    "prior_consistency": 0.4865079365079365,
+    "pool": 66,
+    "ballasts": {
+      "overall": 1725.4,
+      "press": 309.9,
+      "clutch": 384.1,
+      "consistency": 46.3
+    },
+    "weights": {
+      "press": 0.631,
+      "consistency": 0.236,
+      "clutch": 0.133
+    },
+    "component_reliability": {
+      "press": 0.16,
+      "consistency": 0.2358,
+      "clutch": 0.1332
+    },
+    "reliability": {
+      "n_players": 116,
+      "min_balls_per_half": 250,
+      "metrics": {
+        "overall": {
+          "split_half_r": 0.1736,
+          "full_length_r": 0.2958,
+          "mean_sample": 724.8,
+          "implied_ballast_k": 1725.4
+        },
+        "press": {
+          "split_half_r": 0.0869,
+          "full_length_r": 0.16,
+          "mean_sample": 59.0,
+          "implied_ballast_k": 309.9
+        },
+        "clutch": {
+          "split_half_r": 0.0713,
+          "full_length_r": 0.1332,
+          "mean_sample": 59.0,
+          "implied_ballast_k": 384.1
+        },
+        "pos_rate": {
+          "split_half_r": 0.1337,
+          "full_length_r": 0.2358,
+          "mean_sample": 14.3,
+          "implied_ballast_k": 46.3
+        }
+      }
+    }
+  },
+  "reliability_batting": {
+    "n_players": 107,
+    "min_balls_per_half": 250,
+    "metrics": {
+      "overall": {
+        "split_half_r": 0.3174,
+        "full_length_r": 0.4818,
+        "mean_sample": 727.4,
+        "implied_ballast_k": 782.3
+      },
+      "press": {
+        "split_half_r": 0.0904,
+        "full_length_r": 0.1658,
+        "mean_sample": 48.6,
+        "implied_ballast_k": 244.5
+      },
+      "clutch": {
+        "split_half_r": -0.0,
+        "full_length_r": 0.01,
+        "mean_sample": 48.6,
+        "implied_ballast_k": 4809.8
+      },
+      "pos_rate": {
+        "split_half_r": -0.1232,
+        "full_length_r": 0.01,
+        "mean_sample": 9.8,
+        "implied_ballast_k": 969.3
+      }
+    }
+  },
+  "reliability_bowling": {
+    "n_players": 116,
+    "min_balls_per_half": 250,
+    "metrics": {
+      "overall": {
+        "split_half_r": 0.1736,
+        "full_length_r": 0.2958,
+        "mean_sample": 724.8,
+        "implied_ballast_k": 1725.4
+      },
+      "press": {
+        "split_half_r": 0.0869,
+        "full_length_r": 0.16,
+        "mean_sample": 59.0,
+        "implied_ballast_k": 309.9
+      },
+      "clutch": {
+        "split_half_r": 0.0713,
+        "full_length_r": 0.1332,
+        "mean_sample": 59.0,
+        "implied_ballast_k": 384.1
+      },
+      "pos_rate": {
+        "split_half_r": 0.1337,
+        "full_length_r": 0.2358,
+        "mean_sample": 14.3,
+        "implied_ballast_k": 46.3
+      }
+    }
+  },
+  "params": {
+    "recency_decay": 0.78,
+    "press_floor": 45,
+    "press_gamma": 1.5,
+    "min_matches": 12,
+    "min_w_bat": 45.0,
+    "min_w_bowl": 45.0,
+    "weights": {
+      "press_hat": 0.65,
+      "consistency": 0.2,
+      "clutch": 0.15
+    }
+  }
+}

@@ -1,0 +1,6 @@
+node_modules/
+.next/
+analysis/out/*.parquet
+analysis/out/*.pkl
+analysis/__pycache__/
+.DS_Store

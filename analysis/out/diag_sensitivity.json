@@ -1,0 +1,1314 @@
+{
+  "table": [
+    {
+      "scenario": "baseline",
+      "bat_top10_kept": 10,
+      "bowl_top10_kept": 10,
+      "bat_rank_corr": 1.0,
+      "bowl_rank_corr": 1.0
+    },
+    {
+      "scenario": "pressure floor 35 (wider net)",
+      "bat_top10_kept": 8,
+      "bowl_top10_kept": 7,
+      "bat_rank_corr": 0.974,
+      "bowl_rank_corr": 0.97
+    },
+    {
+      "scenario": "pressure floor 55 (stricter)",
+      "bat_top10_kept": 3,
+      "bowl_top10_kept": 5,
+      "bat_rank_corr": 0.836,
+      "bowl_rank_corr": 0.7
+    },
+    {
+      "scenario": "linear pressure weight",
+      "bat_top10_kept": 8,
+      "bowl_top10_kept": 7,
+      "bat_rank_corr": 0.96,
+      "bowl_rank_corr": 0.972
+    },
+    {
+      "scenario": "steep pressure weight",
+      "bat_top10_kept": 6,
+      "bowl_top10_kept": 7,
+      "bat_rank_corr": 0.946,
+      "bowl_rank_corr": 0.95
+    },
+    {
+      "scenario": "no recency decay",
+      "bat_top10_kept": 8,
+      "bowl_top10_kept": 9,
+      "bat_rank_corr": 0.943,
+      "bowl_rank_corr": 0.953
+    },
+    {
+      "scenario": "heavy recency decay",
+      "bat_top10_kept": 7,
+      "bowl_top10_kept": 7,
+      "bat_rank_corr": 0.907,
+      "bowl_rank_corr": 0.962
+    },
+    {
+      "scenario": "equal component weights",
+      "bat_top10_kept": 7,
+      "bowl_top10_kept": 8,
+      "bat_rank_corr": 0.787,
+      "bowl_rank_corr": 0.945
+    },
+    {
+      "scenario": "unadjusted component weights",
+      "bat_top10_kept": 9,
+      "bowl_top10_kept": 10,
+      "bat_rank_corr": 0.952,
+      "bowl_rank_corr": 0.998
+    },
+    {
+      "scenario": "PI: leverage-heavy",
+      "bat_top10_kept": 7,
+      "bowl_top10_kept": 7,
+      "bat_rank_corr": 0.983,
+      "bowl_rank_corr": 0.957
+    },
+    {
+      "scenario": "PI: adversity-heavy",
+      "bat_top10_kept": 6,
+      "bowl_top10_kept": 8,
+      "bat_rank_corr": 0.866,
+      "bowl_rank_corr": 0.948
+    },
+    {
+      "scenario": "PI: equal pillars",
+      "bat_top10_kept": 7,
+      "bowl_top10_kept": 6,
+      "bat_rank_corr": 0.899,
+      "bowl_rank_corr": 0.93
+    },
+    {
+      "scenario": "stricter eligibility",
+      "bat_top10_kept": 6,
+      "bowl_top10_kept": 9,
+      "bat_rank_corr": 1.0,
+      "bowl_rank_corr": 1.0
+    }
+  ],
+  "scenarios": {
+    "baseline": {
+      "batters": [
+        "Tim David",
+        "Suryakumar Yadav",
+        "Shreyas Iyer",
+        "Namboori Tilak Varma",
+        "Heinrich Klaasen",
+        "Jos Buttler",
+        "Pathum Nissanka",
+        "Shashank Singh",
+        "Mitchell Marsh",
+        "Mohammad Rizwan"
+      ],
+      "bowlers": [
+        "Josh Hazlewood",
+        "Jasprit Bumrah",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Rashid Khan",
+        "Matheesha Pathirana",
+        "Shaheen Afridi",
+        "Varun Chakravarthy",
+        "Jofra Archer",
+        "Axar Patel"
+      ]
+    },
+    "pressure floor 35 (wider net)": {
+      "batters": [
+        "Tim David",
+        "Suryakumar Yadav",
+        "Shreyas Iyer",
+        "Namboori Tilak Varma",
+        "Heinrich Klaasen",
+        "Pathum Nissanka",
+        "Jos Buttler",
+        "Virat Kohli",
+        "Dinesh Karthik",
+        "Mitchell Marsh"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah",
+        "Josh Hazlewood",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Varun Chakravarthy",
+        "Rashid Khan",
+        "Matheesha Pathirana",
+        "Tim Southee",
+        "Wanindu Hasaranga",
+        "Bhuvneshwar Kumar"
+      ]
+    },
+    "pressure floor 55 (stricter)": {
+      "batters": [
+        "Namboori Tilak Varma",
+        "Tim David",
+        "David Miller",
+        "Suryakumar Yadav",
+        "Rovman Powell",
+        "Tristan Stubbs",
+        "Sherfane Rutherford",
+        "Hardik Pandya",
+        "Nicholas Pooran",
+        "Shivam Dube"
+      ],
+      "bowlers": [
+        "Rashid Khan",
+        "Yuzvendra Chahal",
+        "Jofra Archer",
+        "Varun Chakravarthy",
+        "Matheesha Pathirana",
+        "Bhuvneshwar Kumar",
+        "Harshal Patel",
+        "Jasprit Bumrah",
+        "Arshdeep Singh",
+        "Sam Curran"
+      ]
+    },
+    "linear pressure weight": {
+      "batters": [
+        "Tim David",
+        "Suryakumar Yadav",
+        "Shreyas Iyer",
+        "Namboori Tilak Varma",
+        "Pathum Nissanka",
+        "Heinrich Klaasen",
+        "Jos Buttler",
+        "Fakhar Zaman",
+        "Mohammad Rizwan",
+        "Virat Kohli"
+      ],
+      "bowlers": [
+        "Josh Hazlewood",
+        "Jasprit Bumrah",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Tim Southee",
+        "Varun Chakravarthy",
+        "Rashid Khan",
+        "Matheesha Pathirana",
+        "Eshan Malinga",
+        "Kagiso Rabada"
+      ]
+    },
+    "steep pressure weight": {
+      "batters": [
+        "Tim David",
+        "Suryakumar Yadav",
+        "Shreyas Iyer",
+        "Namboori Tilak Varma",
+        "Jos Buttler",
+        "David Miller",
+        "Tristan Stubbs",
+        "Rinku Singh",
+        "Mitchell Marsh",
+        "Rovman Powell"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah",
+        "Jofra Archer",
+        "Rashid Khan",
+        "Matheesha Pathirana",
+        "Bhuvneshwar Kumar",
+        "Sunil Narine",
+        "Nathan Ellis",
+        "Varun Chakravarthy",
+        "Kagiso Rabada",
+        "Wanindu Hasaranga"
+      ]
+    },
+    "no recency decay": {
+      "batters": [
+        "Suryakumar Yadav",
+        "Tim David",
+        "Heinrich Klaasen",
+        "Namboori Tilak Varma",
+        "Dinesh Karthik",
+        "Pathum Nissanka",
+        "Jos Buttler",
+        "Shreyas Iyer",
+        "Shashank Singh",
+        "George Dockrell"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah",
+        "Josh Hazlewood",
+        "Rashid Khan",
+        "Tim Southee",
+        "Matheesha Pathirana",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Axar Patel",
+        "Shaheen Afridi",
+        "Varun Chakravarthy"
+      ]
+    },
+    "heavy recency decay": {
+      "batters": [
+        "Tim David",
+        "Shreyas Iyer",
+        "Namboori Tilak Varma",
+        "Suryakumar Yadav",
+        "Jos Buttler",
+        "Pathum Nissanka",
+        "Mitchell Marsh",
+        "Lokesh Rahul",
+        "Tristan Stubbs",
+        "Rinku Singh"
+      ],
+      "bowlers": [
+        "Josh Hazlewood",
+        "Jasprit Bumrah",
+        "Jofra Archer",
+        "Sunil Narine",
+        "Wanindu Hasaranga",
+        "Eshan Malinga",
+        "Kagiso Rabada",
+        "Varun Chakravarthy",
+        "Rashid Khan",
+        "Axar Patel"
+      ]
+    },
+    "equal component weights": {
+      "batters": [
+        "Namboori Tilak Varma",
+        "Tim David",
+        "Shreyas Iyer",
+        "Pathum Nissanka",
+        "Suryakumar Yadav",
+        "Fakhar Zaman",
+        "Jos Buttler",
+        "Heinrich Klaasen",
+        "Rovman Powell",
+        "Rinku Singh"
+      ],
+      "bowlers": [
+        "Axar Patel",
+        "Rashid Khan",
+        "Akeal Hosein",
+        "Nathan Ellis",
+        "Josh Hazlewood",
+        "Sunil Narine",
+        "Jofra Archer",
+        "Shaheen Afridi",
+        "Jasprit Bumrah",
+        "Eshan Malinga"
+      ]
+    },
+    "unadjusted component weights": {
+      "batters": [
+        "Tim David",
+        "Namboori Tilak Varma",
+        "Suryakumar Yadav",
+        "Shreyas Iyer",
+        "Heinrich Klaasen",
+        "Jos Buttler",
+        "Pathum Nissanka",
+        "Shashank Singh",
+        "Fakhar Zaman",
+        "Mohammad Rizwan"
+      ],
+      "bowlers": [
+        "Josh Hazlewood",
+        "Jasprit Bumrah",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Rashid Khan",
+        "Matheesha Pathirana",
+        "Varun Chakravarthy",
+        "Shaheen Afridi",
+        "Jofra Archer",
+        "Axar Patel"
+      ]
+    },
+    "PI: leverage-heavy": {
+      "batters": [
+        "Abhishek Sharma",
+        "Tim David",
+        "Suryakumar Yadav",
+        "Heinrich Klaasen",
+        "Shreyas Iyer",
+        "Muhammad Waseem",
+        "Pathum Nissanka",
+        "Jos Buttler",
+        "Namboori Tilak Varma",
+        "Phil Salt"
+      ],
+      "bowlers": [
+        "Josh Hazlewood",
+        "Rashid Khan",
+        "Mohammad Nawaz",
+        "Nathan Ellis",
+        "Jasprit Bumrah",
+        "Lockie Ferguson",
+        "Matheesha Pathirana",
+        "Varun Chakravarthy",
+        "Jofra Archer",
+        "Tim Southee"
+      ]
+    },
+    "PI: adversity-heavy": {
+      "batters": [
+        "Tim David",
+        "Suryakumar Yadav",
+        "Namboori Tilak Varma",
+        "Rovman Powell",
+        "Shreyas Iyer",
+        "Heinrich Klaasen",
+        "Jos Buttler",
+        "Ryan Burl",
+        "Riyan Parag",
+        "Tristan Stubbs"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah",
+        "Josh Hazlewood",
+        "Sunil Narine",
+        "Varun Chakravarthy",
+        "Nathan Ellis",
+        "Jofra Archer",
+        "Matheesha Pathirana",
+        "Rashid Khan",
+        "Wanindu Hasaranga",
+        "Blessing Muzarabani"
+      ]
+    },
+    "PI: equal pillars": {
+      "batters": [
+        "Tim David",
+        "Namboori Tilak Varma",
+        "Shreyas Iyer",
+        "Suryakumar Yadav",
+        "Heinrich Klaasen",
+        "Rovman Powell",
+        "Mitchell Marsh",
+        "Shashank Singh",
+        "Ryan Burl",
+        "Rinku Singh"
+      ],
+      "bowlers": [
+        "Jasprit Bumrah",
+        "Lungi Ngidi",
+        "Josh Hazlewood",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Matheesha Pathirana",
+        "Varun Chakravarthy",
+        "Wanindu Hasaranga",
+        "Bhuvneshwar Kumar",
+        "Eshan Malinga"
+      ]
+    },
+    "stricter eligibility": {
+      "batters": [
+        "Tim David",
+        "Suryakumar Yadav",
+        "Shreyas Iyer",
+        "Namboori Tilak Varma",
+        "Heinrich Klaasen",
+        "Mitchell Marsh",
+        "Rovman Powell",
+        "Rinku Singh",
+        "Andre Russell",
+        "Tristan Stubbs"
+      ],
+      "bowlers": [
+        "Josh Hazlewood",
+        "Jasprit Bumrah",
+        "Nathan Ellis",
+        "Sunil Narine",
+        "Rashid Khan",
+        "Matheesha Pathirana",
+        "Varun Chakravarthy",
+        "Jofra Archer",
+        "Axar Patel",
+        "Akeal Hosein"
+      ]
+    }
+  },
+  "batter_frequency": [
+    {
+      "player": "Tim David",
+      "top10_in": 13,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 1.3
+    },
+    {
+      "player": "Suryakumar Yadav",
+      "top10_in": 13,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 2.8
+    },
+    {
+      "player": "Namboori Tilak Varma",
+      "top10_in": 13,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 3.5
+    },
+    {
+      "player": "Shreyas Iyer",
+      "top10_in": 12,
+      "of": 13,
+      "best_rank": 2,
+      "mean_rank": 3.8
+    },
+    {
+      "player": "Heinrich Klaasen",
+      "top10_in": 10,
+      "of": 13,
+      "best_rank": 3,
+      "mean_rank": 5.2
+    },
+    {
+      "player": "Jos Buttler",
+      "top10_in": 10,
+      "of": 13,
+      "best_rank": 5,
+      "mean_rank": 6.5
+    },
+    {
+      "player": "Pathum Nissanka",
+      "top10_in": 8,
+      "of": 13,
+      "best_rank": 4,
+      "mean_rank": 6.0
+    },
+    {
+      "player": "Rovman Powell",
+      "top10_in": 6,
+      "of": 13,
+      "best_rank": 4,
+      "mean_rank": 6.8
+    },
+    {
+      "player": "Mitchell Marsh",
+      "top10_in": 6,
+      "of": 13,
+      "best_rank": 6,
+      "mean_rank": 8.0
+    },
+    {
+      "player": "Tristan Stubbs",
+      "top10_in": 5,
+      "of": 13,
+      "best_rank": 6,
+      "mean_rank": 8.4
+    },
+    {
+      "player": "Rinku Singh",
+      "top10_in": 5,
+      "of": 13,
+      "best_rank": 8,
+      "mean_rank": 9.2
+    },
+    {
+      "player": "Shashank Singh",
+      "top10_in": 4,
+      "of": 13,
+      "best_rank": 8,
+      "mean_rank": 8.2
+    },
+    {
+      "player": "Fakhar Zaman",
+      "top10_in": 3,
+      "of": 13,
+      "best_rank": 6,
+      "mean_rank": 7.7
+    },
+    {
+      "player": "Mohammad Rizwan",
+      "top10_in": 3,
+      "of": 13,
+      "best_rank": 9,
+      "mean_rank": 9.7
+    },
+    {
+      "player": "David Miller",
+      "top10_in": 2,
+      "of": 13,
+      "best_rank": 3,
+      "mean_rank": 4.5
+    },
+    {
+      "player": "Dinesh Karthik",
+      "top10_in": 2,
+      "of": 13,
+      "best_rank": 5,
+      "mean_rank": 7.0
+    },
+    {
+      "player": "Ryan Burl",
+      "top10_in": 2,
+      "of": 13,
+      "best_rank": 8,
+      "mean_rank": 8.5
+    },
+    {
+      "player": "Virat Kohli",
+      "top10_in": 2,
+      "of": 13,
+      "best_rank": 8,
+      "mean_rank": 9.0
+    },
+    {
+      "player": "Abhishek Sharma",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 1.0
+    },
+    {
+      "player": "Muhammad Waseem",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 6,
+      "mean_rank": 6.0
+    },
+    {
+      "player": "Sherfane Rutherford",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 7,
+      "mean_rank": 7.0
+    },
+    {
+      "player": "Hardik Pandya",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 8,
+      "mean_rank": 8.0
+    },
+    {
+      "player": "Lokesh Rahul",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 8,
+      "mean_rank": 8.0
+    },
+    {
+      "player": "Nicholas Pooran",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 9,
+      "mean_rank": 9.0
+    },
+    {
+      "player": "Riyan Parag",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 9,
+      "mean_rank": 9.0
+    },
+    {
+      "player": "Andre Russell",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 9,
+      "mean_rank": 9.0
+    },
+    {
+      "player": "Shivam Dube",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 10,
+      "mean_rank": 10.0
+    },
+    {
+      "player": "George Dockrell",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 10,
+      "mean_rank": 10.0
+    },
+    {
+      "player": "Phil Salt",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 10,
+      "mean_rank": 10.0
+    }
+  ],
+  "bowler_frequency": [
+    {
+      "player": "Jasprit Bumrah",
+      "top10_in": 13,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 2.8
+    },
+    {
+      "player": "Rashid Khan",
+      "top10_in": 12,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 4.7
+    },
+    {
+      "player": "Varun Chakravarthy",
+      "top10_in": 12,
+      "of": 13,
+      "best_rank": 4,
+      "mean_rank": 6.8
+    },
+    {
+      "player": "Josh Hazlewood",
+      "top10_in": 11,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 1.8
+    },
+    {
+      "player": "Nathan Ellis",
+      "top10_in": 11,
+      "of": 13,
+      "best_rank": 3,
+      "mean_rank": 4.1
+    },
+    {
+      "player": "Sunil Narine",
+      "top10_in": 11,
+      "of": 13,
+      "best_rank": 3,
+      "mean_rank": 4.6
+    },
+    {
+      "player": "Matheesha Pathirana",
+      "top10_in": 11,
+      "of": 13,
+      "best_rank": 4,
+      "mean_rank": 6.1
+    },
+    {
+      "player": "Jofra Archer",
+      "top10_in": 9,
+      "of": 13,
+      "best_rank": 2,
+      "mean_rank": 6.2
+    },
+    {
+      "player": "Axar Patel",
+      "top10_in": 6,
+      "of": 13,
+      "best_rank": 1,
+      "mean_rank": 8.0
+    },
+    {
+      "player": "Wanindu Hasaranga",
+      "top10_in": 5,
+      "of": 13,
+      "best_rank": 5,
+      "mean_rank": 8.2
+    },
+    {
+      "player": "Tim Southee",
+      "top10_in": 4,
+      "of": 13,
+      "best_rank": 4,
+      "mean_rank": 6.8
+    },
+    {
+      "player": "Bhuvneshwar Kumar",
+      "top10_in": 4,
+      "of": 13,
+      "best_rank": 5,
+      "mean_rank": 7.5
+    },
+    {
+      "player": "Shaheen Afridi",
+      "top10_in": 4,
+      "of": 13,
+      "best_rank": 7,
+      "mean_rank": 8.0
+    },
+    {
+      "player": "Eshan Malinga",
+      "top10_in": 4,
+      "of": 13,
+      "best_rank": 6,
+      "mean_rank": 8.8
+    },
+    {
+      "player": "Kagiso Rabada",
+      "top10_in": 3,
+      "of": 13,
+      "best_rank": 7,
+      "mean_rank": 8.7
+    },
+    {
+      "player": "Akeal Hosein",
+      "top10_in": 2,
+      "of": 13,
+      "best_rank": 3,
+      "mean_rank": 6.5
+    },
+    {
+      "player": "Yuzvendra Chahal",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 2,
+      "mean_rank": 2.0
+    },
+    {
+      "player": "Lungi Ngidi",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 2,
+      "mean_rank": 2.0
+    },
+    {
+      "player": "Mohammad Nawaz",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 3,
+      "mean_rank": 3.0
+    },
+    {
+      "player": "Lockie Ferguson",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 6,
+      "mean_rank": 6.0
+    },
+    {
+      "player": "Harshal Patel",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 7,
+      "mean_rank": 7.0
+    },
+    {
+      "player": "Arshdeep Singh",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 9,
+      "mean_rank": 9.0
+    },
+    {
+      "player": "Sam Curran",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 10,
+      "mean_rank": 10.0
+    },
+    {
+      "player": "Blessing Muzarabani",
+      "top10_in": 1,
+      "of": 13,
+      "best_rank": 10,
+      "mean_rank": 10.0
+    }
+  ],
+  "consensus_batters": [
+    {
+      "striker_id": 6396,
+      "striker_name": "Tim David",
+      "scenarios": 13,
+      "mean_pct": 0.9885545621692254,
+      "worst_rank": 2,
+      "best_rank": 1,
+      "rank_sd": 0.48038446141526137,
+      "consensus_rank": 1
+    },
+    {
+      "striker_id": 7897,
+      "striker_name": "Namboori Tilak Varma",
+      "scenarios": 13,
+      "mean_pct": 0.9431580400081038,
+      "worst_rank": 9,
+      "best_rank": 1,
+      "rank_sd": 2.0254787341673333,
+      "consensus_rank": 2
+    },
+    {
+      "striker_id": 3647,
+      "striker_name": "Shreyas Iyer",
+      "scenarios": 12,
+      "mean_pct": 0.9402455454198311,
+      "worst_rank": 8,
+      "best_rank": 2,
+      "rank_sd": 1.602554778527654,
+      "consensus_rank": 3
+    },
+    {
+      "striker_id": 1699,
+      "striker_name": "Suryakumar Yadav",
+      "scenarios": 13,
+      "mean_pct": 0.9375778682966162,
+      "worst_rank": 5,
+      "best_rank": 1,
+      "rank_sd": 1.1657505560686467,
+      "consensus_rank": 4
+    },
+    {
+      "striker_id": 4260,
+      "striker_name": "Heinrich Klaasen",
+      "scenarios": 10,
+      "mean_pct": 0.915010429879968,
+      "worst_rank": 8,
+      "best_rank": 3,
+      "rank_sd": 1.3165611772087666,
+      "consensus_rank": 5
+    },
+    {
+      "striker_id": 813,
+      "striker_name": "Jos Buttler",
+      "scenarios": 10,
+      "mean_pct": 0.8767355520632261,
+      "worst_rank": 8,
+      "best_rank": 5,
+      "rank_sd": 0.97182531580755,
+      "consensus_rank": 6
+    },
+    {
+      "striker_id": 818,
+      "striker_name": "Mitchell Marsh",
+      "scenarios": 12,
+      "mean_pct": 0.7655209109398052,
+      "worst_rank": 17,
+      "best_rank": 6,
+      "rank_sd": 3.9648073054937956,
+      "consensus_rank": 7
+    },
+    {
+      "striker_id": 4708,
+      "striker_name": "Rinku Singh",
+      "scenarios": 12,
+      "mean_pct": 0.7454098006568959,
+      "worst_rank": 20,
+      "best_rank": 8,
+      "rank_sd": 3.938927711338647,
+      "consensus_rank": 8
+    },
+    {
+      "striker_id": 4986,
+      "striker_name": "Rovman Powell",
+      "scenarios": 13,
+      "mean_pct": 0.7446409435218084,
+      "worst_rank": 22,
+      "best_rank": 4,
+      "rank_sd": 4.913351772570904,
+      "consensus_rank": 9
+    },
+    {
+      "striker_id": 1318,
+      "striker_name": "Andre Russell",
+      "scenarios": 10,
+      "mean_pct": 0.7088242508222192,
+      "worst_rank": 30,
+      "best_rank": 9,
+      "rank_sd": 6.762642481555071,
+      "consensus_rank": 10
+    },
+    {
+      "striker_id": 6423,
+      "striker_name": "Riyan Parag",
+      "scenarios": 10,
+      "mean_pct": 0.6968034559086553,
+      "worst_rank": 25,
+      "best_rank": 9,
+      "rank_sd": 5.4812812776251905,
+      "consensus_rank": 11
+    },
+    {
+      "striker_id": 20702,
+      "striker_name": "Tristan Stubbs",
+      "scenarios": 13,
+      "mean_pct": 0.6905016678179952,
+      "worst_rank": 29,
+      "best_rank": 6,
+      "rank_sd": 6.384074737689891,
+      "consensus_rank": 12
+    },
+    {
+      "striker_id": 5939,
+      "striker_name": "Cameron Green",
+      "scenarios": 11,
+      "mean_pct": 0.6393042269386073,
+      "worst_rank": 31,
+      "best_rank": 11,
+      "rank_sd": 5.556323179291074,
+      "consensus_rank": 13
+    },
+    {
+      "striker_id": 1077,
+      "striker_name": "David Miller",
+      "scenarios": 13,
+      "mean_pct": 0.6013174507450378,
+      "worst_rank": 42,
+      "best_rank": 3,
+      "rank_sd": 11.206110970221697,
+      "consensus_rank": 14
+    },
+    {
+      "striker_id": 953,
+      "striker_name": "Lokesh Rahul",
+      "scenarios": 12,
+      "mean_pct": 0.556135322882319,
+      "worst_rank": 41,
+      "best_rank": 8,
+      "rank_sd": 8.874119674649423,
+      "consensus_rank": 15
+    },
+    {
+      "striker_id": 3125,
+      "striker_name": "Nicholas Pooran",
+      "scenarios": 13,
+      "mean_pct": 0.5110279646921917,
+      "worst_rank": 37,
+      "best_rank": 9,
+      "rank_sd": 7.838105474915315,
+      "consensus_rank": 16
+    },
+    {
+      "striker_id": 2639,
+      "striker_name": "Marcus Stoinis",
+      "scenarios": 11,
+      "mean_pct": 0.4564119252853297,
+      "worst_rank": 45,
+      "best_rank": 15,
+      "rank_sd": 11.184404726712508,
+      "consensus_rank": 17
+    },
+    {
+      "striker_id": 2984,
+      "striker_name": "Sikandar Raza",
+      "scenarios": 10,
+      "mean_pct": 0.45021082193162104,
+      "worst_rank": 43,
+      "best_rank": 18,
+      "rank_sd": 9.104333522498441,
+      "consensus_rank": 18
+    },
+    {
+      "striker_id": 152,
+      "striker_name": "Ravindra Jadeja",
+      "scenarios": 11,
+      "mean_pct": 0.4159754201402626,
+      "worst_rank": 50,
+      "best_rank": 13,
+      "rank_sd": 11.961301236601614,
+      "consensus_rank": 19
+    },
+    {
+      "striker_id": 4823,
+      "striker_name": "Washington Sundar",
+      "scenarios": 11,
+      "mean_pct": 0.4034305275772294,
+      "worst_rank": 51,
+      "best_rank": 18,
+      "rank_sd": 10.46205264059331,
+      "consensus_rank": 20
+    },
+    {
+      "striker_id": 6725,
+      "striker_name": "Sherfane Rutherford",
+      "scenarios": 13,
+      "mean_pct": 0.36138718465615904,
+      "worst_rank": 52,
+      "best_rank": 7,
+      "rank_sd": 13.765899897936205,
+      "consensus_rank": 21
+    },
+    {
+      "striker_id": 4755,
+      "striker_name": "Shivam Dube",
+      "scenarios": 13,
+      "mean_pct": 0.35561860591789307,
+      "worst_rank": 46,
+      "best_rank": 10,
+      "rank_sd": 12.164471175285795,
+      "consensus_rank": 22
+    },
+    {
+      "striker_id": 2436,
+      "striker_name": "Dasun Shanaka",
+      "scenarios": 10,
+      "mean_pct": 0.33445708286290265,
+      "worst_rank": 55,
+      "best_rank": 23,
+      "rank_sd": 9.62404396406325,
+      "consensus_rank": 23
+    },
+    {
+      "striker_id": 3926,
+      "striker_name": "Rahul Tewatia",
+      "scenarios": 10,
+      "mean_pct": 0.3327869525211198,
+      "worst_rank": 59,
+      "best_rank": 16,
+      "rank_sd": 13.377011790547412,
+      "consensus_rank": 24
+    },
+    {
+      "striker_id": 6460,
+      "striker_name": "Ayush Badoni",
+      "scenarios": 10,
+      "mean_pct": 0.3242600911145491,
+      "worst_rank": 61,
+      "best_rank": 16,
+      "rank_sd": 14.482172949296432,
+      "consensus_rank": 25
+    }
+  ],
+  "consensus_bowlers": [
+    {
+      "bowler_id": 830,
+      "bowler_name": "Josh Hazlewood",
+      "scenarios": 11,
+      "mean_pct": 0.9881416563234745,
+      "worst_rank": 5,
+      "best_rank": 1,
+      "rank_sd": 1.2504544628399563,
+      "consensus_rank": 1
+    },
+    {
+      "bowler_id": 7920,
+      "bowler_name": "Nathan Ellis",
+      "scenarios": 11,
+      "mean_pct": 0.9471105524174878,
+      "worst_rank": 7,
+      "best_rank": 3,
+      "rank_sd": 1.3751033019046572,
+      "consensus_rank": 2
+    },
+    {
+      "bowler_id": 2933,
+      "bowler_name": "Jasprit Bumrah",
+      "scenarios": 13,
+      "mean_pct": 0.94458955442302,
+      "worst_rank": 9,
+      "best_rank": 1,
+      "rank_sd": 2.7339273901036534,
+      "consensus_rank": 3
+    },
+    {
+      "bowler_id": 781,
+      "bowler_name": "Sunil Narine",
+      "scenarios": 12,
+      "mean_pct": 0.9334203376568068,
+      "worst_rank": 11,
+      "best_rank": 3,
+      "rank_sd": 2.167249338901663,
+      "consensus_rank": 4
+    },
+    {
+      "bowler_id": 4722,
+      "bowler_name": "Rashid Khan",
+      "scenarios": 13,
+      "mean_pct": 0.9276295175878839,
+      "worst_rank": 13,
+      "best_rank": 1,
+      "rank_sd": 3.351233986275687,
+      "consensus_rank": 5
+    },
+    {
+      "bowler_id": 8661,
+      "bowler_name": "Matheesha Pathirana",
+      "scenarios": 13,
+      "mean_pct": 0.8880574427114871,
+      "worst_rank": 11,
+      "best_rank": 4,
+      "rank_sd": 2.1152680620571416,
+      "consensus_rank": 6
+    },
+    {
+      "bowler_id": 6256,
+      "bowler_name": "Varun Chakravarthy",
+      "scenarios": 13,
+      "mean_pct": 0.8837267196852843,
+      "worst_rank": 12,
+      "best_rank": 4,
+      "rank_sd": 2.24179415327122,
+      "consensus_rank": 7
+    },
+    {
+      "bowler_id": 3298,
+      "bowler_name": "Jofra Archer",
+      "scenarios": 13,
+      "mean_pct": 0.867192281570751,
+      "worst_rank": 28,
+      "best_rank": 2,
+      "rank_sd": 7.118052168020875,
+      "consensus_rank": 8
+    },
+    {
+      "bowler_id": 39657,
+      "bowler_name": "Eshan Malinga",
+      "scenarios": 10,
+      "mean_pct": 0.8486493689586473,
+      "worst_rank": 23,
+      "best_rank": 6,
+      "rank_sd": 5.00666222813829,
+      "consensus_rank": 9
+    },
+    {
+      "bowler_id": 4900,
+      "bowler_name": "Wanindu Hasaranga",
+      "scenarios": 12,
+      "mean_pct": 0.8181349810699037,
+      "worst_rank": 26,
+      "best_rank": 5,
+      "rank_sd": 6.338913012640115,
+      "consensus_rank": 10
+    },
+    {
+      "bowler_id": 3628,
+      "bowler_name": "Kagiso Rabada",
+      "scenarios": 12,
+      "mean_pct": 0.8012028325816986,
+      "worst_rank": 22,
+      "best_rank": 7,
+      "rank_sd": 4.7161874689651855,
+      "consensus_rank": 11
+    },
+    {
+      "bowler_id": 2876,
+      "bowler_name": "Axar Patel",
+      "scenarios": 12,
+      "mean_pct": 0.7945673724185323,
+      "worst_rank": 35,
+      "best_rank": 1,
+      "rank_sd": 8.862587350511957,
+      "consensus_rank": 12
+    },
+    {
+      "bowler_id": 4692,
+      "bowler_name": "Lockie Ferguson",
+      "scenarios": 10,
+      "mean_pct": 0.7942634427428242,
+      "worst_rank": 23,
+      "best_rank": 6,
+      "rank_sd": 4.371625682868,
+      "consensus_rank": 13
+    },
+    {
+      "bowler_id": 360,
+      "bowler_name": "Bhuvneshwar Kumar",
+      "scenarios": 13,
+      "mean_pct": 0.7705816146141286,
+      "worst_rank": 34,
+      "best_rank": 5,
+      "rank_sd": 7.284511141051441,
+      "consensus_rank": 14
+    },
+    {
+      "bowler_id": 7364,
+      "bowler_name": "Haris Rauf",
+      "scenarios": 10,
+      "mean_pct": 0.7429368827049239,
+      "worst_rank": 33,
+      "best_rank": 11,
+      "rank_sd": 5.963779562212764,
+      "consensus_rank": 15
+    },
+    {
+      "bowler_id": 2417,
+      "bowler_name": "Akeal Hosein",
+      "scenarios": 12,
+      "mean_pct": 0.7404608492881689,
+      "worst_rank": 36,
+      "best_rank": 3,
+      "rank_sd": 10.08561832361789,
+      "consensus_rank": 16
+    },
+    {
+      "bowler_id": 6464,
+      "bowler_name": "Arshdeep Singh",
+      "scenarios": 13,
+      "mean_pct": 0.7077874577180683,
+      "worst_rank": 35,
+      "best_rank": 9,
+      "rank_sd": 6.252179107298797,
+      "consensus_rank": 17
+    },
+    {
+      "bowler_id": 4219,
+      "bowler_name": "Krunal Pandya",
+      "scenarios": 10,
+      "mean_pct": 0.6827788648922669,
+      "worst_rank": 29,
+      "best_rank": 17,
+      "rank_sd": 2.9888682361946524,
+      "consensus_rank": 18
+    },
+    {
+      "bowler_id": 4373,
+      "bowler_name": "Mustafizur Rahman",
+      "scenarios": 13,
+      "mean_pct": 0.6408817782578686,
+      "worst_rank": 40,
+      "best_rank": 12,
+      "rank_sd": 8.723678358500162,
+      "consensus_rank": 19
+    },
+    {
+      "bowler_id": 2320,
+      "bowler_name": "Trent Boult",
+      "scenarios": 12,
+      "mean_pct": 0.6214951303707746,
+      "worst_rank": 32,
+      "best_rank": 18,
+      "rank_sd": 4.851585182997283,
+      "consensus_rank": 20
+    },
+    {
+      "bowler_id": 1612,
+      "bowler_name": "Yuzvendra Chahal",
+      "scenarios": 13,
+      "mean_pct": 0.618058431787615,
+      "worst_rank": 50,
+      "best_rank": 2,
+      "rank_sd": 14.20364705783658,
+      "consensus_rank": 21
+    },
+    {
+      "bowler_id": 3644,
+      "bowler_name": "Kuldeep Yadav",
+      "scenarios": 13,
+      "mean_pct": 0.5753361186350877,
+      "worst_rank": 33,
+      "best_rank": 12,
+      "rank_sd": 6.765296059244619,
+      "consensus_rank": 22
+    },
+    {
+      "bowler_id": 6806,
+      "bowler_name": "Tushar Deshpande",
+      "scenarios": 12,
+      "mean_pct": 0.5690138779700635,
+      "worst_rank": 45,
+      "best_rank": 16,
+      "rank_sd": 9.03863760181642,
+      "consensus_rank": 23
+    },
+    {
+      "bowler_id": 2261,
+      "bowler_name": "Harshal Patel",
+      "scenarios": 13,
+      "mean_pct": 0.5631811603015013,
+      "worst_rank": 54,
+      "best_rank": 7,
+      "rank_sd": 11.821861539385845,
+      "consensus_rank": 24
+    },
+    {
+      "bowler_id": 4101,
+      "bowler_name": "Mitchell Santner",
+      "scenarios": 11,
+      "mean_pct": 0.5540231818582334,
+      "worst_rank": 45,
+      "best_rank": 18,
+      "rank_sd": 7.7986012731887895,
+      "consensus_rank": 25
+    }
+  ]
+}

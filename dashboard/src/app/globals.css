@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #06061c;
+  --color-ink-2: #0c0d2b;
+  --color-panel: #12143a;
+  --color-panel-2: #191c4a;
+  --color-line: #262a63;
+  --color-rr: #e6177f;
+  --color-rr-soft: #ff5aa8;
+  --color-gold: #f2c14e;
+  --color-sky: #4ea8f2;
+  --color-mint: #43d6a0;
+  --color-text: #e9eafc;
+  --color-muted: #9aa0cf;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  background: var(--color-ink);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 99px;
+}
+
+@utility panel {
+  background: linear-gradient(180deg, rgba(25, 28, 74, 0.72), rgba(18, 20, 58, 0.72));
+  border: 1px solid var(--color-line);
+  border-radius: 16px;
+}
+
+@utility glow {
+  box-shadow: 0 0 0 1px rgba(230, 23, 127, 0.25), 0 18px 60px -22px rgba(230, 23, 127, 0.55);
+}
+
+@utility tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+.fadein {
+  animation: fade 0.45s ease both;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
